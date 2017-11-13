@@ -1,0 +1,116 @@
+html { height: 100% }
+body { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+	font-family: 'montserrat'; 
+}
+
+table{
+	color: white;
+
+}
+
+#map { 
+	height: 70%;
+	width: 56%;
+	margin-left: 30px;
+}
+#panel{ 
+	color: white;
+	height:400px;
+   	overflow:auto;
+    background:#fff;
+    padding-bottom: 30px;
+}
+
+h5{
+	font-size: 17pt;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+
+footer{
+	color: white;
+}
+
+.FixedHeightContainer
+{
+	color: white;
+	right: 0px;
+	height: 460px;
+	width: 37%;  
+	padding-top: 0px;
+	padding: 20px;
+	margin-right: 30px;
+	border-top: 1px solid #088EB3;
+	background-color: #39404B;
+	position: absolute;
+}
+
+.adp-step, .adp-substep{
+	border-top: 1px solid #088EB3;
+}
+
+td{
+	border-top: 1px solid #088EB3;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	border-top: 1px solid #088EB3;
+	background-color: #39404B;
+	
+
+}
+
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th{
+	border-bottom: 1px solid #088EB3;
+	background-color: #333333;
+}
+
+
+#jumbo1{
+	background: url(2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 100px;
+}
+
+#jumbo2{
+	background: url(1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 130px;
+}
+
+#jumbo2 h1{
+	font-size: 80pt;
+}
+
+#jumbo1 h1{
+	font-size: 80pt;
+}
+
+#jumbo1 p{
+	margin-left: 30px;
+	font-size: 18pt;
+}
+
+#jumbo2 p{
+	margin-left: 30px;
+	font-size: 18pt;
+}
+
+.btn{
+	border-radius: 0px;
+}
+
+body{
+	background-color: #30353D;
+}
